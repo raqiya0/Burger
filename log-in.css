@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+}
+.content{
+    padding: 0 10px;
+}
+
+body{
+    background: #dfdfdf;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+.text{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+
+}
+form input{
+    max-width: 377px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background: #ffffffff;
+    margin: 10px 0;
+    outline: none;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+}
+form input:focus{
+    background: #ffffffff;
+    scale: 1.04;
+}
+form input::placeholder{
+    text-transform: capitalize;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+.forget{
+    display: flex;
+    justify-content: space-between;
+}
+.forget label,.forget a{
+    color: rgb(0, 0, 0,.8);
+}
+.forget a:hover,p a:hover{
+    text-decoration: underline;
+}
+button{
+    max-width: 377px;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    background: #222;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    margin: 20px 0;
+    border-radius: 30px;
+}
+button:hover{
+    background: #2c2c2c;
+}
+p{
+    text-align: center;
+}
+p a{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.forget input
+{
+    accent-color: blue;
+}
+
