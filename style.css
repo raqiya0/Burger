@@ -154,8 +154,11 @@ nav .icon-bar{
     gap: 30px;
     margin-bottom: 8em;
 }
+.image{
+    text-align: center;
+}
 .text-menu img{
-    width: 100%;
+    width: clamp(250px,50vw,350px);
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
