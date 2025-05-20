@@ -37,7 +37,6 @@ form input{
 }
 form input:focus{
     background: #ffffffff;
-    scale: 1.04;
 }
 form input::placeholder{
     text-transform: capitalize;
